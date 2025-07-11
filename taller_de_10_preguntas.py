@@ -1,5 +1,5 @@
 # print ("----------------ejercicio_2--------------")
-
+#4
 # numero = float(input("Ingrese un número: "))
 
 # if numero > 0:
