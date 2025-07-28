@@ -27,7 +27,7 @@
 
 #solicitar temperaturas al usuario y guardarlas en una tupla
 # c1 = float(input("Temperatura 1 en °C: "))
-# c2 = float(input("Temperatura 2 en °C: "))
+# c2 = float(input("Temperatura 2 en °C: "))i8
 # c3 = float(input("Temperatura 3 en °C: "))
 # c4 = float(input("Temperatura 4 en °C: "))
 # c5 = float(input("Temperatura 5 en °C: "))
