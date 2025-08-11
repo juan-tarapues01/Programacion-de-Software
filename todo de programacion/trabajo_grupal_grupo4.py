@@ -9,11 +9,13 @@ estatura1 = float(input("ingrese su estatura en metros: "))
 imc = peso1 / (estatura1**2)
 
 if imc < 18.5:
-    print ("bajo peso")
+    estado = ("bajo peso")
 elif imc <= 18.5 and imc <25 :
-    print ("peso normal")
+    estado = ("peso normal")
 elif imc <= 25 and imc < 30 :
-    print ("sobrepeso")
+    estado = ("sobrepeso")
 else:
-    print("obesidad")
+    estado =("obesidad")
 
+
+print ("serginho")
