@@ -1,21 +1,39 @@
-#calcuradora IMC(indice de masa corporal)
+# #calcuradora IMC(indice de masa corporal)
+# # Solicitar datos de la persona
+# nombre = input("Ingresa el nombre: ")
+# peso = float(input("Ingresa el peso en kg: "))
+# estatura = float(input("Ingresa la estatura en metros: "))
 
-#pedir la cantidad de registrados 
-print("primero persona ")
-nombre = input("ingrese su nombre: ")
-peso1 = float(input("ingrese su peso en kilogramos: "))
-estatura1 = float(input("ingrese su estatura en metros: "))
+# # Calcular IMC
+# imc = peso / (estatura ** 2)
 
-imc = peso1 / (estatura1**2)
+# # Determinar estado
+# if imc < 18.5:
+#     estado = "Bajo peso"
+# elif imc < 25:
+#     estado = "Peso normal"
+# elif imc < 30:
+#     estado = "Sobrepeso"
+# else:
+#     estado = "Obesidad"
 
-if imc < 18.5:
-    estado = ("bajo peso")
-elif imc <= 18.5 and imc <25 :
-    estado = ("peso normal")
-elif imc <= 25 and imc < 30 :
-    estado = ("sobrepeso")
-else:
-    estado =("obesidad")
+# # Crear diccionario con los datos
+# persona = {
+#     "nombre": nombre,
+#     "peso": peso,
+#     "estatura": estatura,
+#     "imc": round(imc, 2),
+#     "estado": estado
+# }
+
+# # Mostrar resumen
+# print("\nResumen de datos:")
+# print(f"Nombre: {persona['nombre']}")
+# print(f"IMC: {persona['imc']}")
+# print(f"Estado: {persona['estado']}")
 
 
-print ("serginho")
+
+
+
+
