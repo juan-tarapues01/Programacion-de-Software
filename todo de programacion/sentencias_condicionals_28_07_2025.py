@@ -120,7 +120,7 @@
 #     print(f"{numero} es divisible solo entre {numero_division2}")
 # else: 
 #     print(f"este numero no es divisible entre {numero_division} ni entre {numero_division2}")
-
+#sub
 # print("ejercicio_11")
 
 # numero = float(input("ingrese un numero: ")),float(input("ingrese un numero: ")),float(input("ingrese un numero: ")),float(input("ingrese un numero: ")),float(input("ingrese un numero: "))
