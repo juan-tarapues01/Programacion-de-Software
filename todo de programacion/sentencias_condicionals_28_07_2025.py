@@ -94,17 +94,17 @@
 # print("Total a pagar:", precio)
 
 
-# print("ejercicio_9")
+print("ejercicio_9")
 
-# numero = int(input("Ingresa un número: "))
-# if numero % 5 == 0 and numero % 3 == 0:
-#     print("Es múltiplo de 5 y de 3.")
-# elif numero % 2 == 0:
-#     print("Es múltiplo de 5.")
-# elif numero % 3 == 0:
-#     print("Es múltiplo de 3.")
-# else:
-#     print("No es múltiplo ni de 5 ni de 3.")
+numero = int(input("Ingresa un número: "))
+if numero % 5 == 0 and numero % 3 == 0:
+    print("Es múltiplo de 5 y de 3.")
+elif numero % 5 == 0:
+    print("Es múltiplo de 5.")
+elif numero % 3 == 0:
+    print("Es múltiplo de 3.")
+else:
+    print("No es múltiplo ni de 5 ni de 3.")
 
 # print("ejercicio_10")
 
