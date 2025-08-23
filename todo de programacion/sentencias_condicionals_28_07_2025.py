@@ -160,18 +160,60 @@
 # else:
 #     print("al sumar los dos primeros numaros el resultado es una suma baja")
 
-print("ejercicio_14")
+# print("ejercicio_14")
 
-nombres = [input("ingresa un nombre: "),input("ingresa un nombre: "),input("ingresa un nombre: "),input("ingresa un nombre: ")]
+# nombres = input("ingresa un nombre: "),input("ingresa un nombre: "),input("ingresa un nombre: "),input("ingresa un nombre: ")
+# ultimo=nombres[3]
 
-
-
-
-
-
-
-
+# if ultimo == "marta" or ultimo=="Marta":
+#     print("Nombre correcto")
+# else:
+#     print("Nombre incorrecto")
 
 
+# print("ejercicio 15")
+
+# colores = [input("Ingrese un color: "),input("Ingrese un color: "),input("Ingrese un color: ")]
 
 
+# if colores[1]=="azul" or colores[1]=="Azul":
+#     nuevo =input ("ingrese el nuevo color para reemplazar 'azul': ")
+#     colores[1]=nuevo
+#     print(f"Lista actualizada con el color: {nuevo}") 
+#     print (colores)
+# else:
+#     print("no cambia")
+
+# print ("ejercicio 16")
+
+# numeros = (float(input("ingrese un numero: ")),float(input("ingrese un numero: ")),float(input("ingrese un numero: ")),float(input("ingrese un numero: ")))
+ 
+# if numeros[0]< numeros[3]:
+#     print("Orden ascendente")
+# else:
+#     print("Orden decendente")
+
+# print("ejercicio  17")
+
+# edades =(int(input("ingrese edad: ")),int(input("ingrese edad: ")),int(input("ingrese edad: ")))
+
+# if edades[1]> 30:
+#     print("Segunda Edad mayor a 30 años")
+# elif edades[1]==30:
+#     print("Segunda Edad igual a 30 años")
+# else:
+#     print("Segunda Edad menor a 30 años")
+
+# print("ejercicio 18")#sena
+
+# tupla = (int(input("Ingrese un numero: ")),int(input("Ingrese un numero: ")),int(input("Ingrese un numero: ")))
+
+# lista=list(tupla)
+
+
+# if lista[1]==2:
+#     lista[1]= 10
+#     tupla=tuple(lista)
+#     print(f"tupla modificada:\n{tupla}")
+# else:
+#     print(tupla)
