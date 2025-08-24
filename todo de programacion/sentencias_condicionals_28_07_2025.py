@@ -286,14 +286,14 @@
 # else:
 #     print("No hay precio")
 
-print("ejercicio 25")
+# print("ejercicio 25")
 
-productos = {
-    "pan":1200,
-    "leche":2000
-}
+# productos = {
+#     "pan":1200,
+#     "leche":2000
+# }
 
-if "pan" in productos:
-    print("Precio del pan: ",productos["pan"])
-else:
-    print("Producto no disponible")
+# if "pan" in productos:
+#     print("Precio del pan: ",productos["pan"])
+# else:
+#     print("Producto no disponible")
