@@ -120,29 +120,26 @@
 #     print(f"{numero} es divisible solo entre {numero_division2}")
 # else: 
 #     print(f"este numero no es divisible entre {numero_division} ni entre {numero_division2}")
-#sub
+
 # print("ejercicio_11")
 
-# numero = float(input("ingrese un numero: ")),float(input("ingrese un numero: ")),float(input("ingrese un numero: ")),float(input("ingrese un numero: ")),float(input("ingrese un numero: "))
-# lista = [numero]
-# print(lista)
-# numero_tres = numero[2]
-# if numero_tres > 10:
-#     print(f"{numero_tres} es mayor a 10")
-# elif numero_tres == 10:
-#     print(f"{numero_tres} es igual a 10")
+# numero = [float(input("ingrese un numero: ")),float(input("ingrese un numero: ")),float(input("ingrese un numero: ")),float(input("ingrese un numero: ")),float(input("ingrese un numero: "))]
+
+# if numero[2] > 10:
+#     print(f"{numero[2]} es mayor a 10")
+# elif numero[2] == 10:
+#     print(f"{numero[2]} es igual a 10")
 # else:
-#     print(f"{numero_tres} menor a 10")
+#     print(f"{numero[2]} menor a 10")
 
 
 # print("ejercicio_12")
 
-# print("para este ejercicio debes de poner el numero 7 en cualquier casilla para que se realice el programa y " \
-# "si quieres mirar que pasa dale hazlo") 
+# print("debes de agregar el numero 7 en cualquier casilla") 
 
-# numero = int(input("ingresa un numero: ")),int(input("ingresa un numero: ")),int(input("ingresa un numero: ")),int(input("ingresa un numero: "))
-# lista = [numero]
-# print(lista)
+# numero = [int(input("ingresa un numero: ")),int(input("ingresa un numero: ")),int(input("ingresa un numero: ")),int(input("ingresa un numero: "))]
+
+# print(numero)
 # if 7 in numero:
 #     print("el numero 7 si esta en la lista")
 # else:
