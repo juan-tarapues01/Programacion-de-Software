@@ -94,17 +94,17 @@
 # print("Total a pagar:", precio)
 
 
-print("ejercicio_9")
+# print("ejercicio_9")
 
-numero = int(input("Ingresa un número: "))
-if numero % 5 == 0 and numero % 3 == 0:
-    print("Es múltiplo de 5 y de 3.")
-elif numero % 5 == 0:
-    print("Es múltiplo de 5.")
-elif numero % 3 == 0:
-    print("Es múltiplo de 3.")
-else:
-    print("No es múltiplo ni de 5 ni de 3.")
+# numero = int(input("Ingresa un número: "))
+# if numero % 5 == 0 and numero % 3 == 0:
+#     print("Es múltiplo de 5 y de 3.")
+# elif numero % 5 == 0:
+#     print("Es múltiplo de 5.")
+# elif numero % 3 == 0:
+#     print("Es múltiplo de 3.")
+# else:
+#     print("No es múltiplo ni de 5 ni de 3.")
 
 # print("ejercicio_10")
 
@@ -217,3 +217,83 @@ else:
 #     print(f"tupla modificada:\n{tupla}")
 # else:
 #     print(tupla)
+
+# print("ejercicio 19")
+
+# numero = (float(input("ingrese un numero: ")),float(input("ingrese un numero: ")))
+
+# if numero[1]>5:
+#     print("Coordenada alta")
+# else:
+#     print("Coordenada baja")
+
+# print("ejercicio 20 ")
+
+# tupla1 =(int(input("Ingrese un numero: ")),int(input("Ingrese un numero: ")))
+# tupla2 =(int(input("Ingrese un numero: ")),int(input("Ingrese un numero: ")))
+
+# if tupla1==tupla2:
+#     print("Tuplas iguales")
+# else:
+#     print("Tuplas diferentes")
+
+
+# print("ejercicio 21")
+
+# datos ={
+#     "nombre":input("Ingrese su nombre: "),
+#     "edad":int(input("Ingrese su edad: "))
+# }
+
+# if datos["edad"]>=18:
+#     print(f"{datos["nombre"]} Eres Adulto")
+# else:
+#     print(f"{datos["nombre"]} Eres Menor de edad")
+
+
+# print("ejercicio 22")
+
+# persona ={
+#      "nombre":input("Ingrese su nombre: "),
+#      "edad":int(input("Ingrese su edad: "))
+#  }
+
+# if persona["edad"]> 18:
+#     persona["edad"]=21
+#     print(persona)
+# else:
+#     print(persona)
+
+# print("ejercicio 23")
+
+# persona = {
+#     "nombre":input("Ingrese su nombre: ")
+# }
+
+# if "ciudad" not in persona:
+#     persona["ciudad"]= "Bogotá"
+#     print(persona)
+
+# print("ejercicio 24")
+
+# producto = {
+#     "producto":input("Ingrese un producto: "),
+#     "precio":float(input("Ingrese el precio del producto: "))
+# }
+
+# if producto["precio"]>0:
+#     print("precio:",producto["precio"])
+# else:
+#     print("No hay precio")
+
+print("ejercicio 25")
+
+productos = {
+    "pan":1200,
+    "leche":2000
+}
+
+if "pan" in productos:
+    print("Precio del pan: ",productos["pan"])
+else:
+    print("Producto no disponible")
