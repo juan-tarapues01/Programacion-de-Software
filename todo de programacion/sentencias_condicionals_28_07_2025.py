@@ -149,20 +149,18 @@
 
 # numero = float(input("ingresa un numero: ")),float(input("ingresa un numero: ")),float(input("ingresa un numero: ")),float(input("ingresa un numero: "))
 
-# suma = numero[0] + numero[1]
-# lista=[suma]
-# print (lista)
-# if suma > 10:
+
+# if numero[0] + numero[1]> 10:
 #     print("al sumar los dos primeros numaros el resultado es una suma alta")
 # else:
 #     print("al sumar los dos primeros numaros el resultado es una suma baja")
 
-# print("ejercicio_14")
-
+# print("ejercicio_14")                 
+#                                         #pide los nombres
 # nombres = input("ingresa un nombre: "),input("ingresa un nombre: "),input("ingresa un nombre: "),input("ingresa un nombre: ")
-# ultimo=nombres[3]
-
-# if ultimo == "marta" or ultimo=="Marta":
+                       
+#                                                         #verificar si el ultimo nombre es "marta"
+# if nombres[3] == "marta" or nombres[3] == "Marta":
 #     print("Nombre correcto")
 # else:
 #     print("Nombre incorrecto")
@@ -173,13 +171,13 @@
 # colores = [input("Ingrese un color: "),input("Ingrese un color: "),input("Ingrese un color: ")]
 
 
-# if colores[1]=="azul" or colores[1]=="Azul":
+# if colores[0]=="azul" or colores[1]=="azul" or colores[2]== "azul":
 #     nuevo =input ("ingrese el nuevo color para reemplazar 'azul': ")
-#     colores[1]=nuevo
+#     colores[0] =nuevo
 #     print(f"Lista actualizada con el color: {nuevo}") 
 #     print (colores)
 # else:
-#     print("no cambia")
+#     print(colores)
 
 # print ("ejercicio 16")
 
