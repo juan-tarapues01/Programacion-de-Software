@@ -114,26 +114,26 @@
 #parte 3 implementación en python 
 
 
+# Clase base
 class Producto:
-  def __init__(self,nombre,precio,tipo_producto):
-    self.nombre=nombre
-    self.precio=precio
-    self.tipo_producto=tipo_producto
-   
-  def mostrar_info(self):
-    print(f"nombre: {self.nombre}")
-    print(f"precio: {self.precio}")
-    print(f"tipo de producto: {self.tipo_producto}")
+    def _init_(self, nombre, precio, tipo_producto):
+        self.nombre = nombre
+        self.precio = precio
+        self.tipo_producto = tipo_producto
 
+    def mostrar_info(self):
+        return f"{self.nombre} - ${self.precio} (Tipo: {self.tipo_producto})"
 
+# Clase base
 class Cliente:
-  def __init__(self,nombre_cliente,correo):
-    self.nombre_cliente=nombre_cliente
-    self.correo=correo
+    def _init_(self, nombre, correo):
+        self.nombre = nombre
+        self.correo = correo
 
-  def ver_productos(self):
-    print(f"Nombre del cliente: {self.nombre_cliente}")
-    print(f"correo: {self.correo}")
+    def ver_productos(self, productos):
+        print("Productos disponibles:")
+        for p in productos:
+            print(p.mostrar_info())
 
 # Herencia y polimorfismo
 class Pedido(Cliente):
@@ -162,5 +162,4 @@ cliente.ver_productos([p1, p2])
 cliente.agregar_producto(p1)
 cliente.agregar_producto(p2)
 cliente.mostrar_pedido()
-
     
