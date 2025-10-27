@@ -241,10 +241,36 @@ else:
 #     print("Sobresaliente.")
 
 
+# Diccionario con palabras en inglés y su traducción al español
+
+# diccionario = {
+#     "apple": "manzana",
+#     "house": "casa",
+#     "book": "libro",
+#     "dog": "perro",
+#     "sun": "sol"
+# }
+
+# print("Diccionario Inglés - Español:")
+# for palabra in diccionario:  
+#     print(palabra, diccionario[palabra])
 
 
 
 
+
+
+
+# Crear una lista con 10 números
+numeros = [5, 8, 12, 3, 7, 10, 25, 6, 9, 4]
+
+# Calcular la suma de la lista
+suma = 0
+for n in numeros:
+    suma += n
+
+print("Lista de números:", numeros)
+print("La suma de todos los números es:", suma)
 
 
 
